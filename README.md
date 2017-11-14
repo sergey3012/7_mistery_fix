@@ -1,23 +1,20 @@
-# Решатель квадратных уравнений
+# Script for solving of Quadratic equation
+This script allows to solve different quadratic equation. Depending on Discriminant's value, the script returns 3 options of roots.
+in case if discriminant equals Zero, the script returns 1 root.
+in case if discriminant more than Zero, the script returns 2 roots.
+in other case, the script returns None roots. 
+There are 2 files: quadratic_equation.py - for solving equation and tests.py - for testing script
 
-[TODO. Здесь будет описание проекта]
+# How to use
+for solving equation, you have to launch file: quadratic_equation.py
+for checking, you have to launch file: tests.py
 
-# Как использовать
 
-[TODO. Здесь будет описание программного интерфейса: функции, их аргументы, формат ответа. Нужен пример кода демонстрирующий импорт модуля и использование функции.]
+# How to launch tests
 
-# Как запустить
+python tests.py
 
-Скрипт требует для своей работы установленного интерпретатора Python версии 3.5
 
-Запуск на Linux:
+# Project's aim
 
-```bash
-python tests.py # может понадобиться вызов python3 вместо python, зависит от настроек операционной системы
-```
-
-Запуск на Windows происходит аналогично.
-
-# Цели проекта
-
-Код создан в учебных целях. В рамках учебного курса по веб-разработке ― [DEVMAN.org](https://devman.org)
+This code was written for educational aims for project ― [DEVMAN.org](https://devman.org)
