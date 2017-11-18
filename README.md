@@ -1,8 +1,10 @@
 # Script for solving of Quadratic equation
 This script allows to solve different quadratic equation. Quadratic equation has view: ax**2 + bx + c = 0. In script there are 2 files: quadratic_equation.py - for solving equation and tests.py - for testing script.
 
-# How to use
-For solving equation, you have to launch file: quadratic_equation.py. Then launch function get_roots(a, b, c), where a, b, c - coefficients of quation. At first, the script calculate Discriminant's value. 
+At first, the script calculate Discriminant's value. 
+```python
+    discriminant = b ** 2 - 4 * a * c
+```
 
 Depending on Discriminant's value (D), the script returns 3 options of roots:
 
@@ -27,6 +29,14 @@ In other case, the script returns 2 roots
         return root1, root2
 ```
 
+# How to use
+For solving equation, you have to launch file: quadratic_equation.py. Then launch function get_roots(a, b, c), where a, b, c - coefficients of quation. 
+
+For example,
+
+```python
+    print(get_roots(-1, 2, 2))
+```
 For checking, you have to launch file: tests.py.
 
 
